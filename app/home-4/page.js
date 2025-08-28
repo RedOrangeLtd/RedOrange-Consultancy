@@ -50,7 +50,8 @@ const page = () => {
       <div className="mil-fw-image">
         <img
           loading="lazy"
-          src="img/home-4/1.png"
+          // src="img/home-4/1.png"
+          src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/1.png`}
           alt="image"
           data-value-1={1}
           data-value-2="1.1"
@@ -85,7 +86,8 @@ const page = () => {
               <div className="mil-image-simple mil-square mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-4/2.png"
+                  // src="img/home-4/2.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/2.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -155,7 +157,8 @@ const page = () => {
         <div className="container mil-relative">
           <img
             loading="lazy"
-            src="img/home-4/portfolio.png"
+            // src="img/home-4/portfolio.png"
+            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/portfolio.png`}
             alt="portfolio"
             className="mil-large-title"
           />
@@ -188,7 +191,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-4/3.png"
+                            // src="img/home-4/3.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/3.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -207,7 +211,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-4/4.png"
+                            // src="img/home-4/4.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/4.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -226,7 +231,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-4/5.png"
+                            // src="img/home-4/5.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/5.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -291,7 +297,8 @@ const page = () => {
               <div className="mil-out-image mil-left mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-4/7.png"
+                  // src="img/home-4/7.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-4/7.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -369,7 +376,12 @@ const page = () => {
                 </p>
                 <div className="mil-card-info">
                   <div className="mil-review-author">
-                    <img loading="lazy" src="img/users/3.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      // src="img/users/3.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/3.png`}
+                      alt="user"
+                    />
                     <div className="mil-user-name">
                       <h6 className="mil-mb-10">Miriane Doyle</h6>
                       <p className="mil-text-16">Store Owner in Marseille</p>

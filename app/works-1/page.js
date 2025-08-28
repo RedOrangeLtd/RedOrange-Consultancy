@@ -9,7 +9,8 @@ const page = () => {
         pageName="Projects"
         pageTitle="Projects"
         pageUrl="works-1"
-        bgImg="/img/projects/0.png"
+        // bgImg="/img/projects/0.png"
+        bgImg={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/0.png`}
       />
 
       {/* works */}
@@ -22,7 +23,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/1.png"
+                      // src="img/projects/1.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/1.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -45,7 +47,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/2.png"
+                      // src="img/projects/2.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/2.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -65,7 +68,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/3.png"
+                      // src="img/projects/3.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/3.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -90,7 +94,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/4.png"
+                      // src="img/projects/4.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/4.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -110,7 +115,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/5.png"
+                      // src="img/projects/5.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/5.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -133,7 +139,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/6.png"
+                      // src="img/projects/6.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/6.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"

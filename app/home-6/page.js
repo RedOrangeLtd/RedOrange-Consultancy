@@ -11,12 +11,22 @@ const page = () => {
       <div className="mil-banner mil-banner-6">
         <div className="mil-image-position-1">
           <div className="mil-banner-fly-image">
-            <img loading="lazy" src="img/home-6/1.png" alt="building" />
+            <img
+              loading="lazy"
+              // src="img/home-6/1.png"
+              src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/1.png`}
+              alt="building"
+            />
           </div>
         </div>
         <div className="mil-image-position-2">
           <div className="mil-banner-fly-image">
-            <img loading="lazy" src="img/home-6/2.png" alt="building" />
+            <img
+              loading="lazy"
+              // src="img/home-6/2.png"
+              src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/2.png`}
+              alt="building"
+            />
           </div>
         </div>
         <div className="container">
@@ -68,7 +78,8 @@ const page = () => {
               <div className="mil-image-simple mil-vert mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-6/4.png"
+                  // src="img/home-6/4.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/4.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -80,7 +91,8 @@ const page = () => {
               <div className="mil-image-simple mil-vert mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-6/3.png"
+                  // src="img/home-6/3.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/3.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -121,6 +133,7 @@ const page = () => {
                           <img
                             loading="lazy"
                             src="img/home-6/5.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/5.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -142,7 +155,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-6/6.png"
+                            // src="img/home-6/6.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/6.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -162,7 +176,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-6/7.png"
+                            // src="img/home-6/7.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/7.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -182,7 +197,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-6/2.png"
+                            // src="img/home-6/2.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/2.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -202,7 +218,8 @@ const page = () => {
                         <div className="mil-hover-frame">
                           <img
                             loading="lazy"
-                            src="img/home-6/3.png"
+                            // src="img/home-6/3.png"
+                            src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/3.png`}
                             alt="project"
                             data-value-1={1}
                             data-value-2="1.1"
@@ -245,7 +262,8 @@ const page = () => {
               <div className="mil-image-simple mil-land mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-6/8.png"
+                  // src="img/home-6/8.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/8.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -257,7 +275,8 @@ const page = () => {
               <div className="mil-image-simple mil-square mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-6/9.png"
+                  // src="img/home-6/9.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/9.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -351,7 +370,8 @@ const page = () => {
               <div className="mil-image-simple mil-land-plus mil-up">
                 <img
                   loading="lazy"
-                  src="img/home-6/10.png"
+                  // src="img/home-6/10.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/10.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -369,7 +389,8 @@ const page = () => {
           <div className="mil-video-frame mil-up">
             <img
               loading="lazy"
-              src="img/home-6/11.png"
+              // src="img/home-6/11.png"
+              src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-6/11.png`}
               alt="video cover"
               data-value-1={1}
               data-value-2="1.1"

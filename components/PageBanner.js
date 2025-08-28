@@ -4,7 +4,8 @@ const PageBanner = ({
   pageName = "About",
   pageUrl = "about",
   pageTitle = "About",
-  bgImg = "img/about/1.png",
+  // bgImg = "img/about/1.png",
+  bgImg = "https://html.bslthemes.com/moork/img/about/1.png",
 }) => {
   return (
     <div

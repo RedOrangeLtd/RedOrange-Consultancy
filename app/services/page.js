@@ -11,7 +11,8 @@ const page = () => {
         pageName="Services"
         pageTitle="Services"
         pageUrl="services"
-        bgImg="/img/services/1.png"
+        // bgImg="/img/services/1.png"
+        bgImg="https://html.bslthemes.com/moork/img/services/1.png"
       />
 
       {/* banner end */}
@@ -64,7 +65,8 @@ const page = () => {
               <div className="mil-image-simple mil-land mil-up mil-mb-100">
                 <img
                   loading="lazy"
-                  src="img/services/2.png"
+                  // src="img/services/2.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/services/2.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -92,7 +94,8 @@ const page = () => {
                   <div className="mil-image-simple mil-vert mil-up">
                     <img
                       loading="lazy"
-                      src="img/services/3.png"
+                      // src="img/services/3.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/services/3.png`}
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -121,7 +124,8 @@ const page = () => {
                   <div className="mil-image-simple mil-vert mil-up">
                     <img
                       loading="lazy"
-                      src="img/services/4.png"
+                      // src="img/services/4.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/services/4.png`}
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -152,7 +156,8 @@ const page = () => {
                   <div className="mil-image-simple mil-vert mil-up">
                     <img
                       loading="lazy"
-                      src="img/services/5.png"
+                      // src="img/services/5.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/services/5.png`}
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -194,7 +199,12 @@ const page = () => {
                 </p>
                 <div className="mil-card-info">
                   <div className="mil-review-author">
-                    <img loading="lazy" src="img/users/1.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      // src="img/users/1.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/1.png`}
+                      alt="user"
+                    />
                     <div className="mil-user-name">
                       <h6 className="mil-mb-10">Miriane Doyle</h6>
                       <p className="mil-text-16">Store Owner in Marseille</p>
@@ -223,7 +233,12 @@ const page = () => {
                 </p>
                 <div className="mil-card-info">
                   <div className="mil-review-author">
-                    <img loading="lazy" src="img/users/2.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      // src="img/users/2.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/2.png`}
+                      alt="user"
+                    />
                     <div className="mil-user-name">
                       <h6 className="mil-mb-10">Jovanović Doyle</h6>
                       <p className="mil-text-16">Andersson Family</p>
