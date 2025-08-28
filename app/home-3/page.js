@@ -26,7 +26,12 @@ const page = () => {
             </div>
             <div className="col-xl-6">
               <div className="mil-banner-image-frame">
-                <img loading="lazy" src="img/home-3/1.png" alt="image" />
+                <img
+                  loading="lazy"
+                  src="img/home-3/1.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/1.png`}
+                  alt="image"
+                />
                 <div className="mil-bannet-content-items">
                   <div className="mil-counter-item mil-mb-60">
                     <h5 className="mil-light mil-mb-20">
@@ -88,7 +93,8 @@ const page = () => {
                   <div className="mil-image-frame">
                     <img
                       loading="lazy"
-                      src="img/home-3/2.png"
+                      // src="img/home-3/2.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/2.png`}
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -100,7 +106,8 @@ const page = () => {
                   <div className="mil-image-frame">
                     <img
                       loading="lazy"
-                      src="img/home-3/3.png"
+                      // src="img/home-3/3.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/3.png`}
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -153,7 +160,8 @@ const page = () => {
                 </div>
                 <img
                   loading="lazy"
-                  src="img/home-3/4.png"
+                  // src="img/home-3/4.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/4.png`}
                   alt="background"
                   className="mil-up"
                 />
@@ -190,7 +198,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-3/5.png"
+                          // src="img/home-3/5.png"
+                          src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/5.png`}
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -212,7 +221,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-3/6.png"
+                          // src="img/home-3/6.png"
+                          src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/6.png`}
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -234,7 +244,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-3/7.png"
+                          // src="img/home-3/7.png"
+                          src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-3/7.png`}
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -364,7 +375,12 @@ const page = () => {
                 </p>
                 <div className="mil-card-info">
                   <div className="mil-review-author">
-                    <img loading="lazy" src="img/users/1.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      // src="img/users/1.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/1.png`}
+                      alt="user"
+                    />
                     <div className="mil-user-name">
                       <h6 className="mil-mb-10">Miriane Doyle</h6>
                       <p className="mil-text-16">Store Owner in Marseille</p>
@@ -393,7 +409,12 @@ const page = () => {
                 </p>
                 <div className="mil-card-info">
                   <div className="mil-review-author">
-                    <img loading="lazy" src="img/users/2.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      // src="img/users/2.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/2.png`}
+                      alt="user"
+                    />
                     <div className="mil-user-name">
                       <h6 className="mil-mb-10">Jovanović Doyle</h6>
                       <p className="mil-text-16">Andersson Family</p>
@@ -440,7 +461,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/blog/1.png"
+                      // src="img/blog/1.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/blog/1.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -462,7 +484,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/blog/2.png"
+                      // src="img/blog/2.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/blog/2.png`}
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"
