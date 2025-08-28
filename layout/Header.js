@@ -22,10 +22,10 @@ const HeaderMenu = () => {
             : ""
         }`}
       >
-        <a href="#" onClick={(e) => e.preventDefault()}>
+        {/* <a href="#" onClick={(e) => e.preventDefault()}>
           Home
-        </a>
-        <ul>
+        </a> */}
+        {/* <ul>
           <li>
             <Link href="/">Home 1</Link>
           </li>
@@ -44,7 +44,7 @@ const HeaderMenu = () => {
           <li>
             <Link href="home-6">Home 6</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className={`${activeMenuFuntion(["about"])}`}>
         <Link href="about">About us</Link>
@@ -58,14 +58,14 @@ const HeaderMenu = () => {
         </a>
         <ul>
           <li>
-            <Link href="works-1">List Home 1</Link>
+            <Link href="works-1">List Home </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="works-2">List Home 2</Link>
           </li>
           <li>
             <Link href="works-3">List Home 3</Link>
-          </li>
+          </li> */}
           <li>
             <Link href="work">Single work</Link>
           </li>
@@ -94,12 +94,12 @@ const HeaderMenu = () => {
           <li>
             <Link href="store">Store</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="store-item">Store item</Link>
           </li>
           <li>
             <Link href="cart">Cart</Link>
-          </li>
+          </li> */}
         </ul>
       </li>
     </Fragment>
