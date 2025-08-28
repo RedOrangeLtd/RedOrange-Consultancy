@@ -12,7 +12,8 @@ const page = () => {
               <div className="mil-image-simple mil-square mil-up">
                 <img
                   loading="lazy"
-                  src="img/store/items/1.png"
+                  // src="img/store/items/1.png"
+                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/1.png`}
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -135,7 +136,11 @@ const page = () => {
               <li>
                 <div className="mil-comment mil-up">
                   <div className="mil-avatar">
-                    <img loading="lazy" src="img/users/1.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/1.png`}
+                      alt="user"
+                    />
                   </div>
                   <div className="mil-comment-text">
                     <h6 className="mil-mb-10">Joshua Conti</h6>
@@ -157,7 +162,11 @@ const page = () => {
               <li>
                 <div className="mil-comment mil-up">
                   <div className="mil-avatar">
-                    <img loading="lazy" src="img/users/2.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/2.png`}
+                      alt="user"
+                    />
                   </div>
                   <div className="mil-comment-text">
                     <h6 className="mil-mb-10">Bernarda Mitchell</h6>
@@ -179,7 +188,11 @@ const page = () => {
                   <li>
                     <div className="mil-comment mil-up">
                       <div className="mil-avatar">
-                        <img loading="lazy" src="img/users/3.png" alt="user" />
+                        <img
+                          loading="lazy"
+                          src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/3.png`}
+                          alt="user"
+                        />
                       </div>
                       <div className="mil-comment-text">
                         <h6 className="mil-mb-10">Noah Frigerio</h6>
@@ -204,7 +217,11 @@ const page = () => {
               <li>
                 <div className="mil-comment mil-up">
                   <div className="mil-avatar">
-                    <img loading="lazy" src="img/users/4.png" alt="user" />
+                    <img
+                      loading="lazy"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/users/4.png`}
+                      alt="user"
+                    />
                   </div>
                   <div className="mil-comment-text">
                     <h6 className="mil-mb-10">Geraldine Moore</h6>
@@ -236,20 +253,9 @@ const page = () => {
             <div className="col-lg-3 mil-mb-100">
               <Link href="store-item" className="mil-store-card mil-up">
                 <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/9.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-lg-3 mil-mb-100">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
                   <img
                     loading="lazy"
-                    src="img/store/items/10.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/9.png`}
                     alt="cover"
                   />
                 </div>
@@ -264,7 +270,8 @@ const page = () => {
                 <div className="mil-cover">
                   <img
                     loading="lazy"
-                    src="img/store/items/11.png"
+                    // src="img/store/items/10.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/10.png`}
                     alt="cover"
                   />
                 </div>
@@ -279,7 +286,24 @@ const page = () => {
                 <div className="mil-cover">
                   <img
                     loading="lazy"
-                    src="img/store/items/12.png"
+                    // src="img/store/items/11.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/11.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-3 mil-mb-100">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/12.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/12.png`}
                     alt="cover"
                   />
                 </div>
