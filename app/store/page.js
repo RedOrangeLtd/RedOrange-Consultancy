@@ -8,7 +8,8 @@ const page = () => {
         pageName="Store"
         pageTitle="Store"
         pageUrl="store"
-        bgImg="/img/store/1.png"
+        // bgImg="/img/store/1.png"
+        bgImg={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/1.png`}
       />
       <div className="mil-p-200-100">
         <div className="container">
@@ -19,108 +20,10 @@ const page = () => {
             <div className="col-xl-3 mil-mb-50">
               <Link href="store-item" className="mil-store-card mil-up">
                 <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/1.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/2.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/3.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/4.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/5.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/6.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/7.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/8.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
-                  <img loading="lazy" src="img/store/items/9.png" alt="cover" />
-                </div>
-                <div className="mil-descr">
-                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
-                  <p className="mil-text-22 mil-dark">$256.96</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-3 mil-mb-50">
-              <Link href="store-item" className="mil-store-card mil-up">
-                <div className="mil-cover">
                   <img
                     loading="lazy"
-                    src="img/store/items/10.png"
+                    // src="img/store/items/1.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/1.png`}
                     alt="cover"
                   />
                 </div>
@@ -135,7 +38,8 @@ const page = () => {
                 <div className="mil-cover">
                   <img
                     loading="lazy"
-                    src="img/store/items/11.png"
+                    // src="img/store/items/2.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/2.png`}
                     alt="cover"
                   />
                 </div>
@@ -150,7 +54,152 @@ const page = () => {
                 <div className="mil-cover">
                   <img
                     loading="lazy"
-                    src="img/store/items/12.png"
+                    // src="img/store/items/3.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/3.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/4.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/4.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/5.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/5.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/6.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/6.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/7.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/7.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/8.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/8.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/9.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/9.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/10.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/10.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/11.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/11.png`}
+                    alt="cover"
+                  />
+                </div>
+                <div className="mil-descr">
+                  <h6 className="mil-mb-10">Minimalist Elegance Chair</h6>
+                  <p className="mil-text-22 mil-dark">$256.96</p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-xl-3 mil-mb-50">
+              <Link href="store-item" className="mil-store-card mil-up">
+                <div className="mil-cover">
+                  <img
+                    loading="lazy"
+                    // src="img/store/items/12.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/store/items/12.png`}
                     alt="cover"
                   />
                 </div>

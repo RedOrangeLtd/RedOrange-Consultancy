@@ -8,7 +8,8 @@ const page = () => {
         pageName="Contact"
         pageTitle="Contact us"
         pageUrl="contact"
-        bgImg="/img/contact/1.png"
+        // bgImg="/img/contact/1.png"
+        bgImg={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/contact/1.png`}
       />
       {/* contact info */}
       <div className="mil-p-200-150">
