@@ -9,7 +9,8 @@ const page = () => {
         pageName="Projects"
         pageTitle="Projects"
         pageUrl="works-2"
-        bgImg="/img/projects/0.png"
+        // bgImg="/img/projects/0.png"
+        bgImg="https://html.bslthemes.com/moork/img/home-2/1.png"
       />
       <div className="mil-p-200-100">
         <div className="container">
@@ -20,7 +21,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/projects/1.png"
+                      // src="img/projects/1.png"
+                      src="https://html.bslthemes.com/moork/img/home-2/2.png"
                       alt="project"
                       data-value-1={1}
                       data-value-2="1.1"

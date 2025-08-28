@@ -27,7 +27,12 @@ const page = () => {
             </div>
             <div className="col-xl-6">
               <div className="mil-banner-image-frame">
-                <img loading="lazy" src="img/home-2/1.png" alt="image" />
+                <img
+                  loading="lazy"
+                  // src="img/home-2/1.png"
+                  src="https://html.bslthemes.com/moork/img/home-2/1.png"
+                  alt="image"
+                />
               </div>
             </div>
           </div>
@@ -62,7 +67,8 @@ const page = () => {
                 <div className="mil-image-frame">
                   <img
                     loading="lazy"
-                    src="img/home-2/2.png"
+                    // src="img/home-2/2.png"
+                    src="https://html.bslthemes.com/moork/img/home-2/2.png"
                     alt="img"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -102,7 +108,8 @@ const page = () => {
                 <div className="mil-image-frame">
                   <img
                     loading="lazy"
-                    src="img/home-2/3.png"
+                    // src="img/home-2/3.png"
+                    src="https://html.bslthemes.com/moork/img/home-2/3.png"
                     alt="img"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -209,7 +216,8 @@ const page = () => {
                 <div className="mil-hover-frame">
                   <img
                     loading="lazy"
-                    src="img/home-2/4.png"
+                    // src="img/home-2/4.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-2/4.png`}
                     alt="project"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -229,7 +237,8 @@ const page = () => {
                 <div className="mil-hover-frame">
                   <img
                     loading="lazy"
-                    src="img/home-2/5.png"
+                    // src="img/home-2/5.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-2/5.png`}
                     alt="project"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -249,7 +258,8 @@ const page = () => {
                 <div className="mil-hover-frame">
                   <img
                     loading="lazy"
-                    src="img/home-2/6.png"
+                    // src="img/home-2/6.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-2/6.png`}
                     alt="project"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -269,7 +279,8 @@ const page = () => {
                 <div className="mil-hover-frame">
                   <img
                     loading="lazy"
-                    src="img/home-2/7.png"
+                    // src="img/home-2/7.png"
+                    src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-2/7.png`}
                     alt="project"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -332,7 +343,8 @@ const page = () => {
           <div className="mil-video-frame mil-up">
             <img
               loading="lazy"
-              src="img/home-2/8.png"
+              // src="img/home-2/8.png"
+              src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-2/8.png`}
               alt="video cover"
               data-value-1={1}
               data-value-2="1.1"
@@ -386,7 +398,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-2/1.png"
+                      // src="img/about/team-2/1.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/team-2/1.png`}
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -406,7 +419,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-2/2.png"
+                      // src="img/about/team-2/2.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/team-2/2.png`}
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -426,7 +440,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-2/3.png"
+                      // src="img/about/team-2/3.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/team-2/3.png`}
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -446,7 +461,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-2/4.png"
+                      // src="img/about/team-2/4.png"
+                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/team-2/4.png`}
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -467,7 +483,9 @@ const page = () => {
       {/* call to action */}
       <div
         className="mil-p-200-200 mil-bg-image"
-        style={{ backgroundImage: "url(img/home-2/9.png)" }}
+        style={{
+          backgroundImage: `url(${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/home-2/9.png)`,
+        }}
       >
         <div className="container">
           <div className="row">
