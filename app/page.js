@@ -25,7 +25,11 @@ const page = () => {
             </div>
             <div className="col-xl-6">
               <div className="mil-banner-image-frame">
-                <img loading="lazy" src="img/home-1/1.jpg" alt="image" />
+                <img
+                  loading="lazy"
+                  src="https://html.bslthemes.com/moork/img/home-1/1.jpg"
+                  alt="image"
+                />
               </div>
             </div>
           </div>
@@ -61,7 +65,8 @@ const page = () => {
                   <div className="mil-image-frame">
                     <img
                       loading="lazy"
-                      src="img/home-1/2.png"
+                      // src="img/home-1/2.png"
+                      src="https://html.bslthemes.com/moork/img/home-1/2.png"
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -73,7 +78,8 @@ const page = () => {
                   <div className="mil-image-frame">
                     <img
                       loading="lazy"
-                      src="img/home-1/3.png"
+                      // src="img/home-1/3.png"
+                      src="https://html.bslthemes.com/moork/img/home-1/3.png"
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -117,7 +123,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-1/4.png"
+                          // src="img/home-1/4.png"
+                          src="https://html.bslthemes.com/moork/img/home-1/4.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -147,7 +154,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-1/5.png"
+                          // src="img/home-1/5.png"
+                          src="https://html.bslthemes.com/moork/img/home-1/5.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -177,7 +185,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-1/6.png"
+                          // src="img/home-1/6.png"
+                          src="https://html.bslthemes.com/moork/img/home-1/6.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -205,7 +214,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/projects/1.png"
+                          // src="img/projects/1.png"
+                          src="https://html.bslthemes.com/moork/img/projects/1.jpg"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -233,7 +243,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/projects/2.png"
+                          // src="img/projects/2.png"
+                          src="https://html.bslthemes.com/moork/img/projects/2.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -344,7 +355,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-1/7.png"
+                          // src="img/home-1/7.png"
+                          src="https://html.bslthemes.com/moork/img/home-1/7.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -366,7 +378,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-1/8.png"
+                          // src="img/home-1/8.png"
+                          src="https://html.bslthemes.com/moork/img/home-1/8.jpg"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -388,7 +401,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-1/9.png"
+                          // src="img/home-1/9.png"
+                          src="https://html.bslthemes.com/moork/img/home-1/9.jpg"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -408,7 +422,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-6/2.png"
+                          // src="img/home-6/2.png"
+                          src="https://html.bslthemes.com/moork/img/home-6/2.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -428,7 +443,8 @@ const page = () => {
                       <div className="mil-hover-frame">
                         <img
                           loading="lazy"
-                          src="img/home-6/3.png"
+                          // src="img/home-6/3.png"
+                          src="https://html.bslthemes.com/moork/img/home-6/3.png"
                           alt="project"
                           data-value-1={1}
                           data-value-2="1.1"
@@ -470,7 +486,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-1/1.png"
+                      // src="img/about/team-1/1.png"
+                      src="https://html.bslthemes.com/moork/img/about/team-1/1.png"
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -490,7 +507,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-1/2.png"
+                      // src="img/about/team-1/2.png"
+                      src="https://html.bslthemes.com/moork/img/about/team-1/2.png"
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -510,7 +528,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-1/3.png"
+                      // src="img/about/team-1/3.png"
+                      src="https://html.bslthemes.com/moork/img/about/team-1/3.png"
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -530,7 +549,8 @@ const page = () => {
                   <div className="mil-hover-frame">
                     <img
                       loading="lazy"
-                      src="img/about/team-1/4.png"
+                      // src="img/about/team-1/4.png"
+                      src="https://html.bslthemes.com/moork/img/about/team-1/4.png"
                       alt="Team member"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -607,7 +627,8 @@ const page = () => {
                   <div className="mil-image-frame">
                     <img
                       loading="lazy"
-                      src="img/home-1/10.png"
+                      // src="img/home-1/10.png"
+                      src="https://html.bslthemes.com/moork/img/home-1/10.png"
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
@@ -619,7 +640,8 @@ const page = () => {
                   <div className="mil-image-frame">
                     <img
                       loading="lazy"
-                      src="img/home-1/11.png"
+                      // src="img/home-1/11.png"
+                      src="https://html.bslthemes.com/moork/img/home-1/11.png"
                       alt="img"
                       data-value-1={1}
                       data-value-2="1.1"
