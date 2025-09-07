@@ -1,0 +1,23 @@
+name: Staging Auto Deployment
+
+on:
+  push:
+   branches:
+      - 'main'
+
+jobs:
+  Deploy-to-Main:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: SSH into server and perform git operations
+      uses: appleboy/ssh-action@master
+      with:
+        host: '65.108.142.94'
+        username: 'root'
+        key: ${{ secrets.CONSULTANCY }}
+        port: '2222'
+        script: |
+          cd /var/www/redorangeconsultancy/
+          bash auto_deploy.bash
