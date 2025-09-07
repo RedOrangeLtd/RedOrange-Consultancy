@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true, // কারণ export এ Next.js image optimization কাজ করে না
+    unoptimized: true, 
   },
 };
 
