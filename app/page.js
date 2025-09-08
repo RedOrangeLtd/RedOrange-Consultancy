@@ -1,16 +1,16 @@
 "use client";
 import MoorkLayout from "@/layout/MoorkLayout";
-import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Banner from "./components/Banner";
 import OurPartner from "./components/OurPartner";
+import OurProjects from "./components/OurProjects";
 import Teams from "./components/Teams";
 import WhatWeDO from "./components/WhatWeDO";
 const page = () => {
   return (
     <MoorkLayout header={1}>
       {/* banner */}
-      <div className="mil-banner mil-banner-1 mil-bg-soft">
+      {/* <div className="mil-banner mil-banner-1 mil-bg-soft">
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
@@ -37,7 +37,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Banner />
       {/* banner end */}
       {/* about */}
       <div className="mil-p-200-100">
@@ -97,7 +98,7 @@ const page = () => {
       </div>
       {/* about end */}
       {/* projects */}
-      <div className="mil-bg-soft mil-p-200-200">
+      {/* <div className="mil-bg-soft mil-p-200-200">
         <div className="container mil-relative">
           <div className="row">
             <div className="col-lg-6">
@@ -278,7 +279,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <OurProjects />
       {/* projects end */}
       {/* counters */}
       <div className="mil-bg-soft mil-p-0-150">
