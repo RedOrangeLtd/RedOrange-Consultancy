@@ -91,9 +91,9 @@ const HeaderMenu = () => {
           <li>
             <Link href="publication">Publication</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="store">Store</Link>
-          </li>
+          </li> */}
           {/* <li>
             <Link href="store-item">Store item</Link>
           </li>
