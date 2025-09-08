@@ -24,8 +24,8 @@ const HeaderMenu = () => {
       >
         {/* <a href="#" onClick={(e) => e.preventDefault()}>
           Home
-        </a> */}
-        {/* <ul>
+        </a>
+        <ul>
           <li>
             <Link href="/">Home 1</Link>
           </li>

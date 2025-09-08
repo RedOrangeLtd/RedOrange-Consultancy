@@ -20,14 +20,14 @@ const page = () => {
               <p className="mil-mb-10">
                 Address:{" "}
                 <span className="mil-dark">
-                  888 Grand St. Unit #777, New York, <br />
-                  NY 707070, USA
+                  Red Orange Holdings B.V. <br />
+                  Simon Stevinweg 58 <br /> 1221 AE Hilversum
                 </span>
               </p>
               <p className="mil-mb-20">
-                Telephone: <span className="mil-dark">+1 (555) 987-9365</span>
+                Telephone: <span className="mil-dark">+31636392</span>
               </p>
-              <a href="tel:+15559879365" className="mil-link mil-accent">
+              <a href="tel:+31636392" className="mil-link mil-accent">
                 Contact this office
               </a>
             </div>
@@ -36,18 +36,18 @@ const page = () => {
               <p className="mil-mb-10">
                 Address:{" "}
                 <span className="mil-dark">
-                  444 Grand Ave. Unit #69696, <br />
-                  New York, NY 121212, USA
+                  Red Orange Limited <br />
+                  House 102 Block F, Road 3 <br /> Banani, Dhaka 1213
                 </span>
               </p>
               <p className="mil-mb-20">
-                Telephone: <span className="mil-dark">+1 (555) 987-9351</span>
+                Telephone: <span className="mil-dark">+8801714-080469</span>
               </p>
-              <a href="tel:+15559879365" className="mil-link mil-accent">
+              <a href="tel:+8801714-080469" className="mil-link mil-accent">
                 Contact this office
               </a>
             </div>
-            <div className="col-xl-4 mil-mb-50">
+            {/* <div className="col-xl-4 mil-mb-50">
               <h5 className="mil-mb-20">Innovation Center - Architectural</h5>
               <p className="mil-mb-10">
                 Address:{" "}
@@ -61,7 +61,7 @@ const page = () => {
               <a href="tel:+15559879365" className="mil-link mil-accent">
                 Contact this office
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
