@@ -22,7 +22,7 @@ const HeaderMenu = () => {
             : ""
         }`}
       >
-        {/* <a href="#" onClick={(e) => e.preventDefault()}>
+        <a href="#" onClick={(e) => e.preventDefault()}>
           Home
         </a>
         <ul>
@@ -44,7 +44,7 @@ const HeaderMenu = () => {
           <li>
             <Link href="home-6">Home 6</Link>
           </li>
-        </ul> */}
+        </ul>
       </li>
       <li className={`${activeMenuFuntion(["about"])}`}>
         <Link href="about">About us</Link>
@@ -362,7 +362,7 @@ const DefaultHeader = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo">
-              <img loading="lazy" src="img/logo-1.png" alt="Moork" />
+              <img loading="lazy" src="img/consaltancy_logo.png" alt="Moork" />
             </Link>
             <nav>
               <ul

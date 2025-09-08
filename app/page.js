@@ -3,6 +3,7 @@ import MoorkLayout from "@/layout/MoorkLayout";
 import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Teams from "./components/Teams";
 const page = () => {
   return (
     <MoorkLayout header={1}>
@@ -465,7 +466,7 @@ const page = () => {
       </div>
       {/* projects end */}
       {/* team */}
-      <div className="mil-p-200-170 mil-bg-soft">
+      {/* <div className="mil-p-200-170 mil-bg-soft">
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-6 mil-text-center">
@@ -566,7 +567,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Teams />
       {/* team end */}
       {/* brands */}
       <div className="mil-bg-soft mil-p-0-170">
