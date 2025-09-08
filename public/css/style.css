@@ -1298,6 +1298,7 @@ top panel
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.3s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.3s cubic-bezier(0, 0, 0.3642, 1);
+  background-color: white;
 }
 .mil-top-panel-frame .mil-top-panel {
   display: -webkit-box;
@@ -1442,7 +1443,7 @@ top panel
   border-radius: 0 0 2px 2px;
 }
 .mil-top-panel-frame .mil-navigation.mil-white li a {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 .mil-top-panel-frame .mil-navigation.mil-white li ul li a {
   color: #ffffff;
