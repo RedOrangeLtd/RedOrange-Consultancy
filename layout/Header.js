@@ -146,7 +146,11 @@ const Header1 = () => {
           {/* mil-just-left mil-just-between */}
           <div className="mil-left">
             <Link href="/" className="mil-logo mil-logo-sm">
-              <img loading="lazy" src="img/logo-4.png" alt="Moork" />
+              <img
+                loading="lazy"
+                src="img/consaltancy_logo.png"
+                alt="redorange_consultancy"
+              />
             </Link>
             <nav>
               <ul className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
