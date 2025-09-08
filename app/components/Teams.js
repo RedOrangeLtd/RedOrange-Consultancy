@@ -269,12 +269,12 @@ const Teams = () => {
         <div className="row justify-content-center align-items-center">
           <div className="col-lg-6 mil-text-center">
             <div className="mil-suptitle mil-sm mil-accent mil-mb-30 mil-up">
-              OUR PROJECTS
+              TEAM
             </div>
-            <h2 className="mil-mb-30 mil-up">Innovation in Action</h2>
+            <h2 className="mil-mb-30 mil-up">Our Team</h2>
             <p className="mil-mb-100 mil-up">
-              Our passion for architecture and urban design is reflected in the
-              projects we have carried out over the years.
+              Our strength lies in our people. A team united by passion and
+              purpose, working side by side to create meaningful change.
             </p>
           </div>
         </div>

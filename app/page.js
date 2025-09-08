@@ -4,6 +4,7 @@ import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Teams from "./components/Teams";
+import WhatWeDO from "./components/WhatWeDO";
 const page = () => {
   return (
     <MoorkLayout header={1}>
@@ -327,7 +328,7 @@ const page = () => {
       </div>
       {/* counters end */}
       {/* projects */}
-      <div className="mil-p-200-200">
+      {/* <div className="mil-p-200-200">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 mil-text-center">
@@ -463,7 +464,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <WhatWeDO />
       {/* projects end */}
       {/* team */}
       {/* <div className="mil-p-200-170 mil-bg-soft">
