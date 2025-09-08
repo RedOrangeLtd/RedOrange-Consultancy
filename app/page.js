@@ -3,6 +3,7 @@ import MoorkLayout from "@/layout/MoorkLayout";
 import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import OurPartner from "./components/OurPartner";
 import Teams from "./components/Teams";
 import WhatWeDO from "./components/WhatWeDO";
 const page = () => {
@@ -573,7 +574,7 @@ const page = () => {
       <Teams />
       {/* team end */}
       {/* brands */}
-      <div className="mil-bg-soft mil-p-0-170">
+      {/* <div className="mil-bg-soft mil-p-0-170">
         <div className="container">
           <p className="mil-mb-100 mil-dark mil-up">
             Building Futures Together with Our Esteemed Partners
@@ -601,7 +602,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <OurPartner />
       {/* brands end */}
       {/* about */}
       <div className="mil-p-200-100">
