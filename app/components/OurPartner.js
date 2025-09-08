@@ -1,39 +1,3 @@
-// const OurPartner = () => {
-//   return (
-//     <div className="mil-bg-soft mil-p-0-170">
-//       <div className="container">
-//         <p className="mil-mb-100 mil-dark mil-up">
-//           Building Futures Together with Our Esteemed Partners
-//         </p>
-//         <div className="row">
-//           <div className="col-6 col-xl-3 mil-mb-30">
-//             <div className="mil-brand-frame mil-up">
-//               <img loading="lazy" src="img/brands/1.svg" alt="brand" />
-//             </div>
-//           </div>
-//           <div className="col-6 col-xl-3 mil-mb-30">
-//             <div className="mil-brand-frame mil-up">
-//               <img loading="lazy" src="img/brands/2.svg" alt="brand" />
-//             </div>
-//           </div>
-//           <div className="col-6 col-xl-3 mil-mb-30">
-//             <div className="mil-brand-frame mil-up">
-//               <img loading="lazy" src="img/brands/3.svg" alt="brand" />
-//             </div>
-//           </div>
-//           <div className="col-6 col-xl-3 mil-mb-30">
-//             <div className="mil-brand-frame mil-up">
-//               <img loading="lazy" src="img/brands/4.svg" alt="brand" />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default OurPartner;
-
 const partners = [
   {
     id: 1,
