@@ -15,8 +15,8 @@ const CallToAction = () => {
                 Møor-GT
               </h2>
               <p className="mil-light mil-mb-50 mil-up">
-                Discover how we shape the future with focus and a distinctive
-                touch of innovation.
+                Discover how we shape the future of brands with clarity,
+                creativity, and a distinctive touch of innovation.
               </p>
               <div className="mil-up">
                 <Link
@@ -38,7 +38,7 @@ const CallToAction = () => {
               </h2>
               <p className="mil-light mil-mb-50 mil-up">
                 Immerse yourself in our dynamic portfolio and experience the
-                architectural excellence that defines Møork.
+                creative excellence that defines RedOrange Consultancy.
               </p>
               <div className="mil-up">
                 <Link
