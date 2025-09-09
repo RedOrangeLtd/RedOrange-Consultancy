@@ -22,7 +22,7 @@ const HeaderMenu = () => {
             : ""
         }`}
       >
-        <a href="#" onClick={(e) => e.preventDefault()}>
+        {/* <a href="#" onClick={(e) => e.preventDefault()}>
           Home
         </a>
         <ul>
@@ -44,7 +44,7 @@ const HeaderMenu = () => {
           <li>
             <Link href="home-6">Home 6</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className={`${activeMenuFuntion(["about"])}`}>
         <Link href="about">About us</Link>
