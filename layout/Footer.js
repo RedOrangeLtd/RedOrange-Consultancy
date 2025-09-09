@@ -51,8 +51,11 @@ const Footer = () => {
           </div>
           <div className="col-xl-3 mil-mb-100">
             <h6 className="mil-soft mil-mb-30 mil-up">Stay Connected</h6>
-            <ul className="mil-footer-list">
-              <li className="mil-up">
+            <ul
+              style={{ display: "flex", justifyContent: "start", gap: "30px" }}
+              className=" mil-footer-list"
+            >
+              <li className="mil-up ">
                 <a
                   target="blank"
                   href="https://www.facebook.com/redorangecom"
@@ -61,7 +64,7 @@ const Footer = () => {
                   Facebook
                 </a>
               </li>
-              <li className="mil-up">
+              <li className="mil-up ">
                 <a
                   target="blank"
                   href="https://twitter.com/"
