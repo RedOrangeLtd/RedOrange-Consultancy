@@ -10,7 +10,7 @@ const PageBanner = ({
   return (
     <div
       className="mil-banner-inner-page"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      style={{ backgroundImage: `url(${bgImg})`, backgroundPosition: "0 0px" }}
     >
       <div className="mil-overlay">
         <div className="container">

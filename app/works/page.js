@@ -43,7 +43,8 @@ const page = () => {
         pageName="Projects"
         pageTitle="Projects"
         pageUrl="works-1"
-        bgImg={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/0.png`}
+        // bgImg={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/0.png`}
+        bgImg="/img/projects/project_banner.jpg"
       />
 
       {/* works */}
