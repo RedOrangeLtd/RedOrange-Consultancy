@@ -45,7 +45,7 @@ const AboutUs = () => {
                   <img
                     loading="lazy"
                     // src="img/home-1/3.png"
-                    src="/img/about/spiral-staircase-2025-04-03-23-28-33-utc.jpg"
+                    src="/img/about/financial-report-2025-03-16-03-18-02-utc.jpg"
                     alt="img"
                     data-value-1={1}
                     data-value-2="1.1"
