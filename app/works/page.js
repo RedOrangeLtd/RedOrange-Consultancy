@@ -30,7 +30,7 @@ const projects = [
   {
     href: "work",
     image: "/img/projects/sharenet.png",
-    title: "SHARE-NET",
+    title: "SHARE-NET BANGLADESH",
     subtitle: "Policy Engagement & Sustainability",
   },
 ];
