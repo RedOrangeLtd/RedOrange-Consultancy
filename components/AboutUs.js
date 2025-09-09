@@ -32,7 +32,7 @@ const AboutUs = () => {
                   <img
                     loading="lazy"
                     // src="img/home-1/2.png"
-                    src="https://html.bslthemes.com/moork/img/home-1/2.png"
+                    src="/img/about/business-team-meeting-and-presenting-business-resu-2025-03-07-21-45-26-utc.jpg"
                     alt="img"
                     data-value-1={1}
                     data-value-2="1.1"
@@ -45,7 +45,7 @@ const AboutUs = () => {
                   <img
                     loading="lazy"
                     // src="img/home-1/3.png"
-                    src="https://html.bslthemes.com/moork/img/home-1/3.png"
+                    src="/img/about/spiral-staircase-2025-04-03-23-28-33-utc.jpg"
                     alt="img"
                     data-value-1={1}
                     data-value-2="1.1"

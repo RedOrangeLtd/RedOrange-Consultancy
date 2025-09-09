@@ -3,6 +3,7 @@ import AboutUs from "@/components/AboutUs";
 import MoorkLayout from "@/layout/MoorkLayout";
 import Link from "next/link";
 import Banner from "./components/Banner";
+import Counter from "./components/Counter";
 import OurPartner from "./components/OurPartner";
 import OurProjects from "./components/OurProjects";
 import Teams from "./components/Teams";
@@ -78,7 +79,7 @@ const page = () => {
       {/* projects end */}
 
       {/* counters */}
-      <div className="mil-bg-soft mil-p-0-150">
+      {/* <div className="mil-bg-soft mil-p-0-150">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-3 mil-mb-50">
@@ -123,7 +124,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Counter />
       {/* counters end */}
 
       {/* projects */}
