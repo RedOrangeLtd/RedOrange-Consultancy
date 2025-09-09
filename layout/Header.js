@@ -108,18 +108,18 @@ const HeaderMenu = () => {
     </Fragment>
   );
 };
-const HeaderLeng = () => {
-  return (
-    <ul>
-      <li>
-        <a href="#">En</a>
-      </li>
-      <li>
-        <a href="#">Fr</a>
-      </li>
-    </ul>
-  );
-};
+// const HeaderLeng = () => {
+//   return (
+//     <ul>
+//       <li>
+//         <a href="#">En</a>
+//       </li>
+//       <li>
+//         <a href="#">Fr</a>
+//       </li>
+//     </ul>
+//   );
+// };
 
 const Header = ({ header }) => {
   switch (header) {
@@ -162,12 +162,12 @@ const Header1 = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
+            {/* <ul className="mil-navigation mil-leng mil-white">
               <li>
                 <a href="#.">En / Fr</a>
                 <HeaderLeng />
               </li>
-            </ul>
+            </ul> */}
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
@@ -202,14 +202,14 @@ const Header2 = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
+            {/* <ul className="mil-navigation mil-leng mil-white">
               <li>
                 <a href="#." style={{ color: "#898D96" }}>
                   En / Fr
                 </a>
                 <HeaderLeng />
               </li>
-            </ul>
+            </ul> */}
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
@@ -308,12 +308,12 @@ const Header5 = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
+            {/* <ul className="mil-navigation mil-leng mil-white">
               <li>
                 <a href="#.">En / Fr</a>
                 <HeaderLeng />
               </li>
-            </ul>
+            </ul> */}
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
@@ -378,12 +378,12 @@ const DefaultHeader = () => {
             </nav>
           </div>
           <div className="mil-right">
-            <ul className="mil-navigation mil-leng mil-white">
+            {/* <ul className="mil-navigation mil-leng mil-white">
               <li>
                 <a href="#.">En / Fr</a>
                 <HeaderLeng />
               </li>
-            </ul>
+            </ul> */}
             <div
               className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
               onClick={() => setToggle(!toggle)}
