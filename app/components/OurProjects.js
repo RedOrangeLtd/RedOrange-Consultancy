@@ -1,5 +1,4 @@
 import { sliderProps } from "@/utility/sliderProps";
-import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const projects = [
@@ -66,10 +65,11 @@ const OurProjects = () => {
                   className="swiper-slide"
                   data-swiper-parallax-scale="0.15"
                 >
-                  <Link
+                  {/* <Link
                     href={project.href}
                     className="mil-project-card mil-land"
-                  >
+                  > */}
+                  <div className="mil-project-card mil-land">
                     <div className="mil-cover-frame mil-up">
                       <div className="mil-hover-frame">
                         <img
@@ -91,7 +91,8 @@ const OurProjects = () => {
                       <p className="mil-mb-20">{project.subtitle}</p>
                       <span className="mil-btn mil-btn-sm">View Project</span>
                     </div>
-                  </Link>
+                  </div>
+                  {/* </Link> */}
                 </SwiperSlide>
               ))}
             </Swiper>
