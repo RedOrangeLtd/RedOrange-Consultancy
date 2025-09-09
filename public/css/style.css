@@ -3282,7 +3282,9 @@ footer {
   background-color: #212121;
 }
 footer .mil-footer-logo {
-  width: 130px;
+  width: 400px;
+  margin-top: -77px;
+  margin-left: -50px;
 }
 footer .mil-footer-logo img {
   width: 100%;

@@ -5,7 +5,11 @@ const Footer = () => {
         <div className="row">
           <div className="col-xl-3 mil-mb-100">
             <div className="mil-footer-logo mil-up">
-              <img loading="lazy" src="img/logo-3.png" alt="Moork" />
+              <img
+                loading="lazy"
+                src="img/RedOrange_White_Logo.png"
+                alt="red_orange_black_white"
+              />
             </div>
           </div>
           <div className="col-xl-3 mil-mb-100">
