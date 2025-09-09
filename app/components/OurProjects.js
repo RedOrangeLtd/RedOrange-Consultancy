@@ -5,7 +5,7 @@ const projects = [
   {
     href: "work",
     image: "/img/please_project_pic/Please_Thumbnail-1.jpeg",
-    title: "Please Project",
+    title: "PLEASE PROJECT",
     subtitle: "Conceptualization & Project Design",
   },
   {
@@ -16,21 +16,21 @@ const projects = [
   },
   {
     href: "work",
-    image: "https://html.bslthemes.com/moork/img/home-1/6.png",
-    title: "Luminar Tower",
-    subtitle: "Iconic Skyscrapers",
+    image: "/img/projects/stich_project.png",
+    title: "STICH",
+    subtitle: "Research, Monitoring, Evaluation & Learning (MEL)",
   },
   {
     href: "work",
-    image: "https://html.bslthemes.com/moork/img/projects/1.jpg",
-    title: "Luminar Tower",
-    subtitle: "Iconic Skyscrapers",
+    image: "./img/projects/We-Care-project.png",
+    title: "WE CARE",
+    subtitle: "Research, Monitoring, Evaluation & Learning (MEL)",
   },
   {
     href: "work",
-    image: "https://html.bslthemes.com/moork/img/projects/2.png",
-    title: "Luminar Tower",
-    subtitle: "Iconic Skyscrapers",
+    image: "/img/projects/sharenet.png",
+    title: "SHARE-NET",
+    subtitle: "Policy Engagement & Sustainability",
   },
 ];
 

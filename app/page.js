@@ -1,5 +1,6 @@
 "use client";
 import AboutUs from "@/components/AboutUs";
+import Services from "@/components/Services";
 import MoorkLayout from "@/layout/MoorkLayout";
 import Link from "next/link";
 import Banner from "./components/Banner";
@@ -73,6 +74,8 @@ const page = () => {
       </div> */}
       <AboutUs />
       {/* about end */}
+
+      <Services />
 
       {/* projects */}
       <OurProjects />
