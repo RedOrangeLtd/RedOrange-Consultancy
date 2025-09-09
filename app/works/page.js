@@ -1,6 +1,40 @@
 import PageBanner from "@/components/PageBanner";
 import MoorkLayout from "@/layout/MoorkLayout";
 import Link from "next/link";
+
+const projects = [
+  {
+    href: "work",
+    image: "/img/please_project_pic/Please_Thumbnail-1.jpeg",
+    title: "PLEASE PROJECT",
+    subtitle: "Conceptualization & Project Design",
+  },
+  {
+    href: "work",
+    image: "/img/banner/dsip_project_pic.jpeg",
+    title: "DSIP",
+    subtitle: "Implementation & Coordination Support",
+  },
+  {
+    href: "work",
+    image: "/img/projects/stich_project.png",
+    title: "STICH",
+    subtitle: "Research, Monitoring, Evaluation & Learning (MEL)",
+  },
+  {
+    href: "work",
+    image: "./img/projects/We-Care-project.png",
+    title: "WE CARE",
+    subtitle: "Research, Monitoring, Evaluation & Learning (MEL)",
+  },
+  {
+    href: "work",
+    image: "/img/projects/sharenet.png",
+    title: "SHARE-NET",
+    subtitle: "Policy Engagement & Sustainability",
+  },
+];
+
 const page = () => {
   return (
     <MoorkLayout>
@@ -9,7 +43,6 @@ const page = () => {
         pageName="Projects"
         pageTitle="Projects"
         pageUrl="works-1"
-        // bgImg="/img/projects/0.png"
         bgImg={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/0.png`}
       />
 
@@ -17,146 +50,36 @@ const page = () => {
       <div className="mil-p-200-100">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-xl-5">
-              <Link href="work" className="mil-project-card mil-mb-50">
-                <div className="mil-cover-frame mil-up">
-                  <div className="mil-hover-frame">
-                    <img
-                      loading="lazy"
-                      // src="img/projects/1.png"
-                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/1.png`}
-                      alt="project"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
-                  </div>
-                </div>
-                <div className="mil-descr mil-pad-0 mil-up">
-                  <h4 className="mil-mb-10">
-                    Robston Tower: A Modern Commercial Icon
-                  </h4>
-                  <p>Modern building design</p>
-                </div>
-              </Link>
-              <Link
-                href="work"
-                className="mil-project-card mil-long-m mil-mb-50"
+            {projects.map((project, index) => (
+              <div
+                key={index}
+                className={`col-xl-5 mil-mb-50 ${
+                  index % 2 === 1 ? "mil-long-m" : ""
+                }`}
               >
-                <div className="mil-cover-frame mil-up">
-                  <div className="mil-hover-frame">
-                    <img
-                      loading="lazy"
-                      // src="img/projects/2.png"
-                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/2.png`}
-                      alt="project"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
+                <Link href={project.href} className="mil-project-card">
+                  <div className="mil-cover-frame mil-up">
+                    <div className="mil-hover-frame">
+                      <img
+                        loading="lazy"
+                        // src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}${project.image}`}
+                        src={project.image}
+                        alt={project.title}
+                        data-value-1={1}
+                        data-value-2="1.1"
+                        className="mil-scale-img"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="mil-descr mil-pad-0 mil-up">
-                  <h4 className="mil-mb-10">
-                    Straworld Successful Collaboration Over Time
-                  </h4>
-                  <p>Sustainable &amp; Innovative Design</p>
-                </div>
-              </Link>
-              <Link href="work" className="mil-project-card mil-mb-50">
-                <div className="mil-cover-frame mil-up">
-                  <div className="mil-hover-frame">
-                    <img
-                      loading="lazy"
-                      // src="img/projects/3.png"
-                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/3.png`}
-                      alt="project"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
+                  <div className="mil-descr mil-pad-0 mil-up">
+                    <h4 className="mil-mb-10">{project.title}</h4>
+                    <p>{project.subtitle}</p>
                   </div>
-                </div>
-                <div className="mil-descr mil-pad-0 mil-up">
-                  <h4 className="mil-mb-10">
-                    Straworld Successful Collaboration Over Time
-                  </h4>
-                  <p>Sustainable &amp; Innovative Design</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-xl-5">
-              <Link
-                href="work"
-                className="mil-project-card mil-long-m mil-mb-50"
-              >
-                <div className="mil-cover-frame mil-up">
-                  <div className="mil-hover-frame">
-                    <img
-                      loading="lazy"
-                      // src="img/projects/4.png"
-                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/4.png`}
-                      alt="project"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
-                  </div>
-                </div>
-                <div className="mil-descr mil-pad-0 mil-up">
-                  <h4 className="mil-mb-10">
-                    Straworld Successful Collaboration Over Time
-                  </h4>
-                  <p>Sustainable &amp; Innovative Design</p>
-                </div>
-              </Link>
-              <Link href="work" className="mil-project-card mil-mb-50">
-                <div className="mil-cover-frame mil-up">
-                  <div className="mil-hover-frame">
-                    <img
-                      loading="lazy"
-                      // src="img/projects/5.png"
-                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/5.png`}
-                      alt="project"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
-                  </div>
-                </div>
-                <div className="mil-descr mil-pad-0 mil-up">
-                  <h4 className="mil-mb-10">
-                    Robston Tower: A Modern Commercial Icon
-                  </h4>
-                  <p>Modern building design</p>
-                </div>
-              </Link>
-              <Link
-                href="work"
-                className="mil-project-card mil-long-m mil-mb-50"
-              >
-                <div className="mil-cover-frame mil-up">
-                  <div className="mil-hover-frame">
-                    <img
-                      loading="lazy"
-                      // src="img/projects/6.png"
-                      src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/projects/6.png`}
-                      alt="project"
-                      data-value-1={1}
-                      data-value-2="1.1"
-                      className="mil-scale-img"
-                    />
-                  </div>
-                </div>
-                <div className="mil-descr mil-pad-0 mil-up">
-                  <h4 className="mil-mb-10">
-                    Robston Tower: A Modern Commercial Icon
-                  </h4>
-                  <p>Modern building design</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-12 mil-mb-100">
+                </Link>
+              </div>
+            ))}
+
+            {/* <div className="col-12 mil-mb-100">
               <div className="mil-store-loader mil-up">
                 <svg
                   width={35}
@@ -173,7 +96,7 @@ const page = () => {
                 </svg>
                 <p className="mil-text-16">Loading more ...</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -181,4 +104,5 @@ const page = () => {
     </MoorkLayout>
   );
 };
+
 export default page;
