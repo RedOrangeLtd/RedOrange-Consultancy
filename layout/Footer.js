@@ -17,19 +17,15 @@ const Footer = () => {
             <p className="mil-soft-2 mil-mb-20 mil-up">
               Red Orange Holdings B.V.
               <br /> Stevinweg 58
-              <br /> 1221 AE Hilversum
+              <br /> 1221 AE Hilversum <br /> The Netherlands
             </p>
-            <div className="mil-up">
-              <a href={+31636392} className="mil-light">
-                Phone: +31636392
-              </a>
-            </div>
           </div>
           <div className="col-xl-3 mil-mb-100">
             <h6 className="mil-soft mil-mb-30 mil-up">BANGLADESH OFFICE</h6>
             <p className="mil-soft-2 mil-mb-20 mil-up">
               Red Orange Limited <br />
-              House 102 Block F, Road 3 <br /> Banani, Dhaka 1213
+              House 18 (1st & 2nd Floor) <br />
+              Road 24, Block K <br /> Banani, Dhaka 1213, Bangladesh
             </p>
             <div className="mil-up">
               <a href={+8801714080469} className="mil-light">

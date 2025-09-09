@@ -37,7 +37,8 @@ const page = () => {
                 Address:{" "}
                 <span className="mil-dark">
                   Red Orange Limited <br />
-                  House 102 Block F, Road 3 <br /> Banani, Dhaka 1213
+                  House 18 (1st & 2nd Floor) <br />
+                  Road 24, Block K <br /> Banani, Dhaka 1213, Bangladesh
                 </span>
               </p>
               <p className="mil-mb-20">

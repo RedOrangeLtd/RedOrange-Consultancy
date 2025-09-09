@@ -10,7 +10,7 @@ const Banner = () => {
               <div className="mil-banner-text">
                 <div className="mil-suptitle mil-mb-30">CONSULTANCY</div>
                 <h1 className="mil-display-2 mil-mb-60">
-                  Making challenges into strong solutions
+                  Your Partner for Impact
                 </h1>
                 <Link href="works-1" className="mil-btn mil-btn-border">
                   Explore our projects
