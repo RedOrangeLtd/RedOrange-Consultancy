@@ -16,7 +16,7 @@ const page = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-4 mil-mb-50">
-              <h5 className="mil-mb-20">Main Office - Metropolis City</h5>
+              <h5 className="mil-mb-20">NETHERLANDS OFFICE </h5>
               <p className="mil-mb-10">
                 Address:{" "}
                 <span className="mil-dark">
@@ -32,7 +32,7 @@ const page = () => {
               </a>
             </div>
             <div className="col-xl-4 mil-mb-50">
-              <h5 className="mil-mb-20">Branch - Design Coast</h5>
+              <h5 className="mil-mb-20">BANGLADESH OFFICE</h5>
               <p className="mil-mb-10">
                 Address:{" "}
                 <span className="mil-dark">

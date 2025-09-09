@@ -13,15 +13,27 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-xl-3 mil-mb-100">
-            <h6 className="mil-soft mil-mb-30 mil-up">Main Office</h6>
+            <h6 className="mil-soft mil-mb-30 mil-up">NETHERLANDS OFFICE</h6>
             <p className="mil-soft-2 mil-mb-20 mil-up">
-              Address: Red Orange Holdings B.V.
+              Red Orange Holdings B.V.
               <br /> Stevinweg 58
               <br /> 1221 AE Hilversum
             </p>
             <div className="mil-up">
               <a href={+31636392} className="mil-light">
                 Phone: +31636392
+              </a>
+            </div>
+          </div>
+          <div className="col-xl-3 mil-mb-100">
+            <h6 className="mil-soft mil-mb-30 mil-up">BANGLADESH OFFICE</h6>
+            <p className="mil-soft-2 mil-mb-20 mil-up">
+              Red Orange Limited <br />
+              House 102 Block F, Road 3 <br /> Banani, Dhaka 1213
+            </p>
+            <div className="mil-up">
+              <a href={+8801714080469} className="mil-light">
+                Phone: +8801714-080469
               </a>
             </div>
           </div>
@@ -43,7 +55,7 @@ const Footer = () => {
               <li className="mil-up">
                 <a
                   target="blank"
-                  href="https://facebook.com/"
+                  href="https://www.facebook.com/redorangecom"
                   className="mil-light"
                 >
                   Facebook
@@ -61,7 +73,7 @@ const Footer = () => {
               <li className="mil-up">
                 <a
                   target="blank"
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/company/redorange-comms/"
                   className="mil-light"
                 >
                   Linkedin

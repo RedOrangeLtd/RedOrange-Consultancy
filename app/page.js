@@ -141,7 +141,7 @@ const page = () => {
       {/* brands end */}
 
       {/* about */}
-      <div className="mil-p-200-100">
+      {/* <div className="mil-p-200-100">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5 mil-mb-100">
@@ -194,7 +194,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* about end */}
 
       {/* call to action */}
