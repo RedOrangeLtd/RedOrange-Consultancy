@@ -11,9 +11,9 @@ const projects = [
   },
   {
     href: "work",
-    image: "https://html.bslthemes.com/moork/img/home-1/5.png",
-    title: "We Care",
-    subtitle: "Urban Planning",
+    image: "/img/banner/dsip_project_pic.jpeg",
+    title: "DSIP",
+    subtitle: "Implementation & Coordination Support",
   },
   {
     href: "work",

@@ -1211,8 +1211,8 @@ banner
   background-size: cover;
   background-position: left;
   height: 650px;
-  padding-top: 150px;
-  background-position: 0 150px;
+  padding-top: 120px;
+  background-position: 0 120px;
 }
 .mil-banner-inner-page .mil-overlay {
   background-color: rgba(33, 33, 33, 0.6);

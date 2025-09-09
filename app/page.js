@@ -1,4 +1,5 @@
 "use client";
+import AboutUs from "@/components/AboutUs";
 import MoorkLayout from "@/layout/MoorkLayout";
 import Link from "next/link";
 import Banner from "./components/Banner";
@@ -14,7 +15,7 @@ const page = () => {
       {/* banner end */}
 
       {/* about */}
-      <div className="mil-p-200-100">
+      {/* <div className="mil-p-200-100">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-lg-5 mil-mb-100">
@@ -68,7 +69,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <AboutUs />
       {/* about end */}
 
       {/* projects */}

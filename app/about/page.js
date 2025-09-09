@@ -21,17 +21,22 @@ const page = () => {
                 shaping the architectural future
               </h2>
               <p className="mil-text-22 mil-mb-30 mil-up">
-                At Møork, our passion for architecture is reflected in every
-                project we undertake. Since 2010, we have combined experience,
-                innovation and adaptability to shape modern and functional
-                environments.
+                RedOrange Consultancy is one of the three wings of RedOrange,
+                offering expert services in project design, management and
+                implementation both for infrastructure and social sector.
+                Drawing on a unique blend of grassroots insight and global
+                expertise, the consultancy specializes in developing
+                context-specific, impact-driven solutions.
               </p>
               <p className="mil-up">
-                With a diverse team of more than 60 employees of 8
-                nationalities, spread across New York, Istanbul and Hong Kong,
-                we are prepared to address the ever-evolving urban and
-                territorial challenges in the United States and around the
-                world.
+                With a multidisciplinary team of experienced strategists,
+                managers, implementers, topic experts and M&E specialists. Based
+                in the Netherlands and BanRedOrange Consultancy supports
+                governments, international financial institutes and development
+                partners to translate complex challenges into actionable and
+                sustainable interventions. Over the last 13 years, RedOrange has
+                supported more than hundred projects for various international
+                clients and partners.
               </p>
             </div>
             <div className="col-xl-5 mil-mb-100">

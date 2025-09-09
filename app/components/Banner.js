@@ -22,7 +22,7 @@ const Banner = () => {
             <div className="mil-banner-image-frame">
               <img
                 loading="lazy"
-                src="https://html.bslthemes.com/moork/img/home-1/1.jpg"
+                src="/img/banner/white-vase-on-wooden-table-with-fancy-dining-room-2024-10-18-16-57-36-utc.jpg"
                 alt="image"
               />
             </div>

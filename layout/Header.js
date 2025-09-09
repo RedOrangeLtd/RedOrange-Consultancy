@@ -61,7 +61,7 @@ const HeaderMenu = () => {
         </a>
         <ul>
           <li>
-            <Link href="works-1">List Home </Link>
+            <Link href="works">Our Work</Link>
           </li>
           {/* <li>
             <Link href="works-2">List Home 2</Link>
