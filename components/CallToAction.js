@@ -11,8 +11,7 @@ const CallToAction = () => {
                 METHODOLOGY
               </div>
               <h2 className="mil-h2 mil-light mil-mb-30 mil-up">
-                Our methodology: <br />
-                Møor-GT
+                Our methodology:
               </h2>
               <p className="mil-light mil-mb-50 mil-up">
                 Discover how we shape the future of brands with clarity,
