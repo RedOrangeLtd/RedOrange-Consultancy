@@ -69,18 +69,15 @@ const HeaderMenu = () => {
           <li>
             <Link href="works-3">List Home 3</Link>
           </li> */}
-          <li>
+          {/* <li>
             <Link href="work">Single work</Link>
-          </li>
+          </li> */}
         </ul>
       </li>
       <li
         className={`mil-has-children ${activeMenuFuntion([
-          "blog",
           "publication",
           "contact",
-          "store",
-          "cart",
         ])}`}
       >
         <a href="#.">Pages</a>
@@ -88,11 +85,13 @@ const HeaderMenu = () => {
           <li>
             <Link href="contact">Contact</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="blog">Blog</Link>
-          </li>
+          </li> */}
           <li>
-            <Link href="publication">Publication</Link>
+            <Link href="https://redorangeltd.com/publications/">
+              Publication
+            </Link>
           </li>
           {/* <li>
             <Link href="store">Store</Link>
