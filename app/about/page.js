@@ -1,7 +1,10 @@
+"use client";
+
 import CallToAction from "@/components/CallToAction";
 import PageBanner from "@/components/PageBanner";
 import MoorkLayout from "@/layout/MoorkLayout";
-import Link from "next/link";
+import OurPartner from "../components/OurPartner";
+import Teams from "../components/Teams";
 const page = () => {
   return (
     <MoorkLayout>
@@ -18,7 +21,7 @@ const page = () => {
                 ABOUT US
               </div>
               <h2 className="mil-mb-30 mil-up">
-                shaping the architectural future
+                Shaping problems into real progress
               </h2>
               <p className="mil-text-22 mil-mb-30 mil-up">
                 RedOrange Consultancy is one of the three wings of RedOrange,
@@ -44,7 +47,8 @@ const page = () => {
                 <img
                   loading="lazy"
                   // src="img/about/2.png"
-                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/2.png`}
+                  // src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/2.png`}
+                  src="/img/about/about-1.png"
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -55,7 +59,8 @@ const page = () => {
                 <img
                   loading="lazy"
                   // src="img/about/3.png"
-                  src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/3.png`}
+                  // src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}img/about/3.png`}
+                  src="/img/about/about-2.jpg"
                   alt="img"
                   data-value-1={1}
                   data-value-2="1.1"
@@ -108,7 +113,7 @@ const page = () => {
       </div>
       {/* video end */}
       {/* services */}
-      <div className="mil-bg-dark mil-p-200-150">
+      {/* <div className="mil-bg-dark mil-p-200-150">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-5 mil-mb-100">
@@ -156,10 +161,10 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* services end */}
       {/* team */}
-      <div className="mil-p-200-170 mil-bg-soft">
+      {/* <div className="mil-p-200-170 mil-bg-soft">
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-6 mil-text-center">
@@ -260,10 +265,11 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Teams />
       {/* team end */}
       {/* brands */}
-      <div className="mil-bg-soft mil-p-0-170">
+      {/* <div className="mil-bg-soft mil-p-0-170">
         <div className="container">
           <p className="mil-mb-100 mil-dark mil-up">
             Building Futures Together with Our Esteemed Partners
@@ -291,7 +297,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <OurPartner />
       {/* brands end */}
       <CallToAction />
     </MoorkLayout>
