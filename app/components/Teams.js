@@ -263,7 +263,7 @@ const TeamCard = ({ member }) => (
 
 const Teams = () => {
   return (
-    <div className="mil-p-200-170 mil-bg-soft">
+    <div id="team" className="mil-p-200-170 mil-bg-soft">
       <div className="container">
         {/* Section Header */}
         <div className="row justify-content-center align-items-center">

@@ -49,8 +49,11 @@ const HeaderMenu = () => {
       <li className={`${activeMenuFuntion(["about"])}`}>
         <Link href="about">About us</Link>
       </li>
-      <li className={`${activeMenuFuntion(["services"])}`}>
+      {/* <li className={`${activeMenuFuntion(["services"])}`}>
         <Link href="services">Services</Link>
+      </li> */}
+      <li className={`${activeMenuFuntion(["team"])}`}>
+        <Link href="/#team">Team</Link>
       </li>
       <li className={`mil-has-children ${activeMenuFuntion(["work"])}`}>
         <a href="#" onClick={(e) => e.preventDefault()}>

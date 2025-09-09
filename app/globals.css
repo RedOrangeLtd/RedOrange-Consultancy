@@ -14,3 +14,7 @@
 .mil-accordion-group.mil-active .mil-accordion-content {
   height: 100% !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
