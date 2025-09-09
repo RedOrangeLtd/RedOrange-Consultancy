@@ -19,11 +19,17 @@ const Banner = () => {
             </div>
           </div>
           <div className="col-xl-6">
-            <div className="mil-banner-image-frame">
+            <div className="">
               <img
                 loading="lazy"
-                src="/img/banner/white-vase-on-wooden-table-with-fancy-dining-room-2024-10-18-16-57-36-utc.jpg"
+                // src="/img/banner/white-vase-on-wooden-table-with-fancy-dining-room-2024-10-18-16-57-36-utc.jpg"
+                src="/img/banner/banner-butterfly.svg"
                 alt="image"
+                style={{
+                  width: "500px",
+                  marginTop: "280px",
+                  marginLeft: "130px",
+                }}
               />
             </div>
           </div>
